@@ -9,8 +9,6 @@
 
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="styles.css">
-    <!-- Plyr CSS -->
-    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
 
 </head>
 
@@ -19,8 +17,8 @@
     <h1>Taras Shevchuk</h1>
     <img src="taras-shevchuk.jpg" alt="Profile Image" class="profile-image" width="400" height="450">
     <h2>Junior Software Developer</h2>
-    <audio id="audio-player" controls>
-        <source src="taras-shevchuk.mp3" type="audio/mp3">
+    <audio controls src="taras-shevchuk.mp3">
+        Your browser does not support the audio element.
     </audio>
 
 </header>
@@ -154,13 +152,6 @@
 <footer class="site-footer">
     <p>&copy; 2025 Taras Shevchuk. All rights reserved.</p>
 </footer>
-
-<!-- Plyr JS -->
-<script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
-
-<script>
-    const player = new Plyr('#audio-player');
-</script>
 </body>
 
 </html>
