@@ -10,13 +10,14 @@
 
 <h2>Registration Form</h2>
 
-<form action="/submit" method="POST">
+<form action="http://localhost:8080/students/sign-up" method="POST">
+  <input type="hidden" name="userId" value="12345">
 
-  <label for="fullname">Full Name:</label><br>
+  <label for="fullName">Full Name:</label><br>
   <input
           type="text"
-          id="fullname"
-          name="fullname"
+          id="fullName"
+          name="fullName"
           placeholder="Enter your full name"
           required
   ><br>
