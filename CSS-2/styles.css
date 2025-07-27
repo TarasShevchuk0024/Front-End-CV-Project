@@ -1,0 +1,134 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.site-header {
+    text-align: center;
+    padding: 20px;
+    background-color: #6a1b9a;
+    color: white;
+}
+
+.header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.profile-image {
+    border-radius: 50%;
+}
+
+.site-navigation {
+    background-color: #4a148c;
+    padding: 10px;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-menu-item {
+    margin: 10px;
+}
+
+.nav-menu-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.content-wrapper {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.flex-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.flex-section > .content-section {
+    flex: 1;
+    min-width: 280px;
+}
+
+.content-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.education-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.education-table th, .education-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.education-table th {
+   background-color: #6a1b9a;
+    color: white;
+}
+
+.video {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+.site-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4a148c;
+    color: white;
+    margin-top: 20px;
+}
+
+@media (max-width: 800px) {
+    .nav-menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content-wrapper {
+        width: 95%;
+    }
+
+    .flex-section {
+        flex-direction: column;
+    }
+
+    .profile-image {
+        width: 150px;
+        height: auto;
+    }
+
+    .header-flex {
+        flex-direction: column;
+    }
+}
