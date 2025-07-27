@@ -114,21 +114,21 @@ body {
         flex-direction: column;
         align-items: center;
     }
-}
 
-.content-wrapper {
-    width: 95%;
-}
+    .content-wrapper {
+        width: 95%;
+    }
 
-.flex-section {
-    flex-direction: column;
-}
+    .flex-section {
+        flex-direction: column;
+    }
 
-.profile-image {
-    width: 150px;
-    height: auto;
-}
+    .profile-image {
+        width: 150px;
+        height: auto;
+    }
 
-.header-flex {
-    flex-direction: column;
+    .header-flex {
+        flex-direction: column;
+    }
 }
